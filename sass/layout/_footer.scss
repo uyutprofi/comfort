@@ -1,0 +1,63 @@
+#footer {
+    background-color: #e4e4e4;
+    padding: 25px 0;
+    @include media ('>=tablet') {
+        padding: 50px 0;
+    }
+}
+
+.address-row {
+    font-weight: 500;
+
+    @include media ('>=tablet') {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -15px;
+        flex-wrap: wrap;
+    }
+    .address {
+        margin: 0 0 20px;
+        @include media ('>=tablet') {
+            width: 50%;
+            padding: 0 15px;
+        }
+        @include media ('>=desktop') {
+            width: 25%;
+            padding: 0 15px;
+            margin: 0;
+        }
+        address {
+            display: block;
+            margin: 0 0 10px;
+
+            @include media ('>=tablet') {
+                margin: 0 0 15px;
+            }
+        }
+        strong {
+            display: block;
+            font-size: 20px;
+            margin: 0 0 15px;
+        }
+    }
+    .list-tell {
+        @include media ('>=tablet') {
+            width: 50%;
+            align-self: center;
+        }
+        @include media ('>=desktop') {
+            width: 25%;
+            padding: 0 15px;
+        }
+        li {
+            margin: 0 0 10px;
+        }
+        a {
+            color: $black;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+}

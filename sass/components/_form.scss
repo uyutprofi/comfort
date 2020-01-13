@@ -1,0 +1,33 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 8px;
+    background: #fff;
+    width: 100%;
+    margin: 0 0 10px;
+    border-radius: 5px;
+    
+    &:focus {
+        border-color: $blue;
+        outline: none;
+    }
+    &:active {
+        border-color: $blue;
+        outline: none;
+    }
+    &:hover {
+        border-color: $blue;
+        outline: none;
+    }
+    &::placeholder {
+        color: $placeholder-color;
+        font-size: $placeholder-font-size;
+    }
+    @include media ('>=tablet') {
+        padding: 10px 20px;
+        margin: 0 0 20px;
+    }
+}

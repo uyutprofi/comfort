@@ -1,0 +1,321 @@
+.sticky-header {
+    padding: 20px 10px;
+    @include media ('>=tablet') {
+        padding: 25px 0;
+    }
+    &.fixed-header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+        background-color: #e4e4e4;
+        .contact-grop-down {
+            background-color: #e4e4e4;
+        }
+    }
+    >.container {
+        @include media ('>=tablet') {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+    }
+}
+
+.logo {
+    font-size: 17px;
+    font-weight: 900;
+    @include media ('>=phone') {
+        font-size: 28px;
+    }
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 40px;
+    @include media ('>=desktop') {
+        flex-direction: row;
+        padding: 0;
+    }
+    li {
+        margin: 0 0 15px;
+        font-weight: 700;
+        text-transform: none;
+        font-size: 16px;
+        @include media ('>=desktop') {
+            margin: 0 15px 0 0;
+        }
+
+        @include media ('>=widescreen') {
+            margin: 0 20px 0 0;
+        }
+
+        &:last-child {
+            margin: 0;
+        }
+        &:hover {
+            a {
+                opacity: 0.8;
+            }
+        }
+        a {
+            color: $white;
+            @include media ('>=tablet') {
+                color: $black;
+            }
+        }
+        span {
+            cursor: pointer;
+        }
+    }
+}
+
+.main-slogan {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    mark {
+        color: $white;
+        background-color: rgba(15, 188, 186, 0.8);
+        ;
+        font-family: $base-font-serif;
+    }
+    h1 {
+        font-size: 30px;
+        @include media ('>=tablet') {
+            font-size: 35px;
+        }
+        @include media ('>=desktop') {
+            font-size: 55px;
+        }
+    }
+    p {
+        @include media ('>=tablet') {
+            margin: -20px 0 0;
+        }
+        mark {
+            color: $blue;
+            background: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            @include media ('>=tablet') {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+// btn-scroll-down
+#btn-down {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.icon-scroll {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    background: #fff;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+.contact-list {
+    position: relative;
+}
+
+.contact-drop-down {
+    display: none;
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    min-width: 320px;
+    min-height: 250px;
+    z-index: 5;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $blue;
+    padding: 20px;
+    color: $white;
+    border-radius: 5px;
+    font-family: "Cormorant Infant",serif;
+    text-align: center;
+    max-width: 310px;
+    
+    
+    @include media ('>tablet') {
+        position: absolute;
+        top: auto;
+        top: 55px;
+        left: -100%;
+        transform: translateX(-50%);
+        max-width: 400px;
+    }
+    .btn {
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+        border: none;
+        background-color: $white;
+        color: $blue;
+        transition: all 0.3s;
+
+        &:hover {
+            transform: scale(1.1);
+            background-color: $white;
+            color: $blue;
+        }
+    }
+
+    .phone_number {
+        font-size: 20px;
+
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 0 15px;
+        }
+    
+        a {
+            font-weight: 600;
+            color: $white !important;
+        }
+    }
+
+    .close {
+        right: 10px;
+        font-size: 50px;
+        top: -15px;
+    }
+}
+
+#text_head {
+    font-size: 14px;
+}
+
+.phone-outer {
+    display: block;
+}
+
+// burger-menu
+.nav-opener {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 9999;
+    @include media ('>=tablet') {
+        top: 25px;
+        width: 35px;
+    }
+    @include media ('>=desktop') {
+        display: none;
+    }
+    &:before,
+    &:after,
+    span {
+        background: $black;
+        position: absolute;
+        top: 18px;
+        left: 0;
+        right: 0;
+        height: 4px;
+        transition: all .2s linear;
+    }
+    &:before,
+    &:after {
+        content: '';
+        top: 10px;
+    }
+    &:after {
+        top: 26px;
+    }
+    .nav-active & {
+        &:before,
+        &:after {
+            transform: rotate(45deg);
+            top: 50%;
+            left: 5px;
+            right: 5px;
+        }
+        &:after {
+            transform: rotate(-45deg);
+        }
+        span {
+            opacity: 0;
+        }
+    }
+}
+
+.nav-active {
+    overflow: hidden;
+}
+
+.nav-drop {
+    @include animate(opacity visibility);
+    @include media ('<desktop') {
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        color: white;
+        background: linear-gradient(to bottom, #225968 0%, #1e5799 0%, #01afb0 88%);
+    }
+    .nav-active & {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.resize-active {
+    .nav-drop {
+        transition: none !important;
+    }
+}
