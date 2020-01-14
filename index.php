@@ -61,9 +61,9 @@
                                     
                                     ?>
                                     <div class="phone_number">
-                                    <span title="Vodafone" class="mobo-vodafone-16">&nbsp;<a href="tel:<?php echo $phone_numbers[$key]['mts']; ?>"><?php echo $phone_numbers[$key]['mts']; ?></a></span>
-                                        <span title="Київстар" class="mobo-kyivstar-16">&nbsp;<a href="tel:<?php echo $phone_numbers[$key]['ks']; ?>"><?php echo $phone_numbers[$key]['ks']; ?></a></span>
-                                        <span title="Lifecell" class="mobo-lifecell-16">&nbsp;<a href="tel:<?php echo $phone_numbers[$key]['life']; ?>"><?php echo $phone_numbers[$key]['life']; ?></a></span>
+                                    <span title="Vodafone" class="mobo-vodafone-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['mts']; ?>"><?php echo $phone_numbers[$key]['mts']; ?></a></span>
+                                        <span title="Київстар" class="mobo-kyivstar-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['ks']; ?>"><?php echo $phone_numbers[$key]['ks']; ?></a></span>
+                                        <span title="Lifecell" class="mobo-lifecell-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['life']; ?>"><?php echo $phone_numbers[$key]['life']; ?></a></span>
                                     </div>
                                     <div class="phone_number" id="text_head">
                                         <span>Бесплатный выезд мастера и диагностика!</span>
