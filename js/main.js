@@ -35,6 +35,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#nav").on("click", "a", function(event) {
         if($(this).hasClass('phone-clicable')) return;
+        if($('body').hasClass('nav-active')) $('body').removeClass('nav-active');
         event.preventDefault();
         var id = $(this).attr('href'),
             top = $(id).offset().top;
