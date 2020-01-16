@@ -33,7 +33,7 @@
                     <div class="nav-drop">
                         <ul id="nav">
                             <li><a href="#table-pricing">Прайс</a></li>
-                            <li><a href="#review" data-href="#callback-btn-header" class="hypercomments">Отзывы</a></li>
+                            <li><a href="#review" data-href="#callback-btn-header">Отзывы</a></li>
                             <li><a href="#services">Сервис</a></li>
                             <li><a href="#our-advantages">Наши преимущества</a></li>
                             <li><a href="#contact">Оставить заявку</a></li>
@@ -472,7 +472,9 @@
         var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
     })(document, window, 'script');
     </script>
+  <div id="review">
   <div id="disqus_thread"></div>
+  </div>
   <script>
 
       /**
