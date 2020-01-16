@@ -34,6 +34,7 @@ $(document).ready(function() {
 // anchor
 $(document).ready(function() {
     $("#nav").on("click", "a", function(event) {
+        if($(this).hasClass('phone-clicable')) return;
         event.preventDefault();
         var id = $(this).attr('href'),
             top = $(id).offset().top;
