@@ -27,7 +27,7 @@
     <header id="header">
         <div class="sticky-header">
             <div class="container">
-                <a href="#" class="logo">Компания «УЮТ ПРОФИ»</a>
+                <a href="#" class="logo">ЧАСТНЫЙ СЕРВИС «УЮТ ПРОФИ»</a>
                 <nav class="main-nav">
                     <a href="#" class="nav-opener"><span></span></a>
                     <div class="nav-drop">
@@ -95,7 +95,7 @@
                         document.getElementsByTagName("h1")[0].innerHTML = utmTerms.replace(/[^А-Яа-яЁё\s]/gi, '').toUpperCase();
                     }
                 </script>
-                <p><mark>КОМПАНИЯ «УЮТ ПРОФИ»</mark></p>
+                <p><mark>ЧАСТНЫЙ СЕРВИС «УЮТ ПРОФИ»</mark></p>
             </div>
             <div id="btn-down">
                 <a href="#services" class="icon-scroll bounce">
@@ -110,7 +110,7 @@
                 <button class="btn btn-leave__request pulse-effect" type="submit" data-toggle="modal" data-target="#leave-request">Закажите бесплатную диагностику прямо сейчас!</button>
                 <div class="heading">
                     <h2></h2>
-                    <p>Компания «Уют Профи» предлагает профессиональное сервисное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия>
+                    <p>Частный оконный сервис «Уют Профи» предлагает профессиональное сервисное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия>
                 </div>
                 <div id="our-services">
                     <div class="services__items">
