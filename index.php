@@ -50,26 +50,26 @@
                                 <section class="call contact-drop-down">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <div class="phone_number">
-                                        <span>08:30-21:00 Ежедневно</span>
+                                        <span>09:00-21:00 Ежедневно</span>
                                     </div>
                                     <?php
                                     $phone_numbers = [
                                         'day' => [
                                             'ks' => '+38 (098) 223-74-76',
-                                            'mts' => '+38 (050) 246-83-52',
-                                            'life' => '+38 (050) 246-83-52',
+                                            'mts' => '+38 (066) 617-15-18',
+                                            'life' => '+38 (063) 789-18-59',
                                         ],
                                         'night' => [
                                             'ks' => '+38 (098) 223-74-76',
-                                            'mts' => '+38 (050) 246-83-52',
-                                            'life' => '+38 (050) 246-83-52',
+                                            'mts' => '+38 (066) 617-15-18',
+                                            'life' => '+38 (063) 789-18-59',
                                         ],
                                     ];
 
                                     //$key = 'day';
                                     $key = date('H') >= 19 || date('H') < 10 ? 'night' : 'day';
                                     $key = date('w') == 6 ? 'day' : (date('w') == 0 ? 'night' : $key);
-                                    
+
                                     ?>
                                     <div class="phone_number">
                                     <span title="Vodafone" class="mobo-vodafone-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['mts']; ?>"><?php echo $phone_numbers[$key]['mts']; ?></a></span>
@@ -119,7 +119,7 @@
                 <button class="btn btn-leave__request pulse-effect" type="submit" data-toggle="modal" data-target="#leave-request">Закажите бесплатную диагностику прямо сейчас!</button>
                 <div class="heading">
                     <h2></h2>
-                    <p>Частный оконный сервис «Уют Профи» предлагает профессиональное сервисное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия>
+                    <p>Частный оконный сервис «Уют Профи» предлагает профессиональное сервисное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия
                 </div>
                 <div id="our-services">
                     <div class="services__items">
@@ -218,7 +218,7 @@
                             <th class="name ">Цена грн.</th>
                             <th class="name ">Опция</th>
                         </tr>
-                        <tr>                            
+                        <tr>
                             <td>Регулировка окна/балконной двери</td>
                             <td class="center">створка/дверь</td>
                             <td class="center td-width">150/200</td>
@@ -230,7 +230,7 @@
                             <td class="center td-width">250/300</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>      
+                        <tr>
                             <td>Регулировка входной пластиковой/алюминиевой двери</td>
                             <td class="center">дверь</td>
                             <td class="center td-width">400</td>
@@ -260,7 +260,7 @@
                             <td class="center td-width">100</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>             
+                        <tr>
                             <td>Профилактическая чистка и смазка резинового уплотнителя силиконом</td>
                             <td class="center">створка</td>
                             <td class="center td-width">70</td>
@@ -284,16 +284,22 @@
                             <td class="center td-width">250</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>							
+                        <tr>
 							 <td>Установка детского замка «оконной няни»</td>
                             <td class="center">шт.</td>
                             <td class="center td-width">250</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>       
+                        <tr>
 							<td>Установка приточно-вентиляционного клапана (устранение запотевания стекол) </td>
                             <td class="center">шт.</td>
                             <td class="center td-width">480</td>
+                            <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
+                        </tr>
+                        <tr>
+							<td>Установка противовзломной фурнитуры</td>
+                            <td class="center">створка/дверь</td>
+                            <td class="center td-width">от 500</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
                         <tr>
@@ -302,13 +308,13 @@
                             <td class="center td-width">450/550</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>                           
+                        <tr>
                             <td>Полная замена механизма окна/двери</td>
                             <td class="center">шт.</td>
                             <td class="center td-width">1500-1900</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>                                                                                                         
+                        <tr>
                             <td>Замена секрета замка в двери (изделие+работа) </td>
                             <td class="center">шт.</td>
                             <td class="center td-width">от 450</td>
@@ -320,7 +326,7 @@
                             <td class="center td-width">от 700</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>                                                                                                                 
+                        <tr>
                             <td>Замена пластиковых декоративных частей на петлях </td>
                             <td class="center">комплект</td>
                             <td class="center td-width">70</td>
@@ -397,7 +403,7 @@
             <div class="modal-dialog">
                 <!-- Modal content-->
                 <div class="modal-content">
-                    <div class="modal-header"> 
+                    <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h5 class="modal-title">Оставьте Ваш номер телефона, мы свяжемся с Вами и ответим на все вопросы!</h5>
                     </div>
@@ -470,7 +476,7 @@
             </div>
         </div>
     </div>
-        
+
     <script src='app/js/libs.min.js?v=1.3'></script>
     <script src="./js/old-libs/mask.js"></script>
     <script src="app/js/bundle.min.js?v=1.4"></script>
