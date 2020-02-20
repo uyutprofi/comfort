@@ -38,7 +38,9 @@ $(document).ready(function() {
 
         var phoneInput = $(this).find("input[name='phone']"),
             deviceType = getPlatformType(),
-            form = $(this);
+            form = $(this),
+            event = $(this).attr('data-event'),
+            eventCategory = $(this).attr('data-event-category');
         if (phoneInput.val() !== '') {
             form.append('<input type="hidden" name="device" value="' + deviceType + '">');
             form.find('button[type="submit"]').hide();
@@ -47,6 +49,7 @@ $(document).ready(function() {
                 type: 'post',
                 data: form.serialize(),
                 success: function() {
+                    sendGoogleAnalitics(event, eventCategory);
                     form.html('<p style="white-space: normal;">Cпасибо!<br>Ваша заявка отправлена!<br>Мы перезвоним Вам в ближайшее время и ответим на все вопросы!</p>');
                     setTimeout(function() {
                         $('#free-diagnostic').hide();
@@ -74,6 +77,11 @@ $(document).ready(function() {
         $('#service-dialog').find('.modal-body.' + tagretId).show();
     });
 
+    function sendGoogleAnalitics(event, eventCategory) {
+        gtag('event', event, {
+            'event_category': eventCategory
+        });
+    }
 
     //get device type
     function getPlatformType() {

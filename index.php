@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158367382-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158367382-1');
+    </script>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app/css/bundle.min.css?v=1.2">
@@ -27,7 +36,7 @@
     <header id="header">
         <div class="sticky-header">
             <div class="container">
-                <a href="#" class="logo">Компания «УЮТ ПРОФИ»</a>
+                <a href="#" class="logo">Выезд и диагностика - БЕСПЛАТНО!</a>
                 <nav class="main-nav">
                     <a href="#" class="nav-opener"><span></span></a>
                     <div class="nav-drop">
@@ -36,10 +45,9 @@
                             <li><a href="#review" data-href="#callback-btn-header">Отзывы</a></li>
                             <li><a href="#services">Сервис</a></li>
                             <li><a href="#our-advantages">Наши преимущества</a></li>
-                            <li><a href="#contact">Оставить заявку</a></li>
                             <li class="contact-list"><span id="contact-list-btn">Контакты</span>
                                 <section class="call contact-drop-down">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <div class="phone_number">
                                         <span>08:30-21:00 Ежедневно</span>
                                     </div>
@@ -47,23 +55,23 @@
                                     $phone_numbers = [
                                         'day' => [
                                             'ks' => '+38 (098) 223-74-76',
-                                            'mts' => '+38 (050) 246-83-52',
-                                            'life' => '+38 (050) 246-83-52',
+                                            'mts' => '+38 (066) 617-15-18',
+                                            'life' => '+38 (063) 789-18-59',
                                         ],
                                         'night' => [
                                             'ks' => '+38 (098) 223-74-76',
-                                            'mts' => '+38 (050) 246-83-52',
-                                            'life' => '+38 (050) 246-83-52',
+                                            'mts' => '+38 (066) 617-15-18',
+                                            'life' => '+38 (063) 789-18-59',
                                         ],
                                     ];
 
                                     //$key = 'day';
                                     $key = date('H') >= 19 || date('H') < 10 ? 'night' : 'day';
                                     $key = date('w') == 6 ? 'day' : (date('w') == 0 ? 'night' : $key);
-                                    
+
                                     ?>
                                     <div class="phone_number">
-                                    <span title="Vodafone" class="mobo-vodafone-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['mts']; ?>"><?php echo $phone_numbers[$key]['mts']; ?></a></span>
+                                        <span title="Vodafone" class="mobo-vodafone-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['mts']; ?>"><?php echo $phone_numbers[$key]['mts']; ?></a></span>
                                         <span title="Київстар" class="mobo-kyivstar-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['ks']; ?>"><?php echo $phone_numbers[$key]['ks']; ?></a></span>
                                         <span title="Lifecell" class="mobo-lifecell-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['life']; ?>"><?php echo $phone_numbers[$key]['life']; ?></a></span>
                                     </div>
@@ -75,6 +83,8 @@
                                     </div>
                                 </section>
                             </li>
+                            <li class="send-callback"><a href="#contact">Оставить заявку</a></li>
+
                         </ul>
                     </div>
                 </nav>
@@ -95,7 +105,7 @@
                         document.getElementsByTagName("h1")[0].innerHTML = utmTerms.replace(/[^А-Яа-яЁё\s]/gi, '').toUpperCase();
                     }
                 </script>
-                <p><mark>КОМПАНИЯ «УЮТ ПРОФИ»</mark></p>
+                <p><mark>ЧАСТНЫЙ СЕРВИС «УЮТ ПРОФИ»</mark></p>
             </div>
             <div id="btn-down">
                 <a href="#services" class="icon-scroll bounce">
@@ -110,7 +120,7 @@
                 <button class="btn btn-leave__request pulse-effect" type="submit" data-toggle="modal" data-target="#leave-request">Закажите бесплатную диагностику прямо сейчас!</button>
                 <div class="heading">
                     <h2></h2>
-                    <p>Компания «Уют Профи» предлагает профессиональное сервисное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия>
+                    <p>Частный оконный сервис «Уют Профи» предлагает профессиональное сервисное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия
                 </div>
                 <div id="our-services">
                     <div class="services__items">
@@ -209,7 +219,7 @@
                             <th class="name ">Цена грн.</th>
                             <th class="name ">Опция</th>
                         </tr>
-                        <tr>                            
+                        <tr>
                             <td>Регулировка окна/балконной двери</td>
                             <td class="center">створка/дверь</td>
                             <td class="center td-width">150/200</td>
@@ -221,7 +231,7 @@
                             <td class="center td-width">250/300</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>      
+                        <tr>
                             <td>Регулировка входной пластиковой/алюминиевой двери</td>
                             <td class="center">дверь</td>
                             <td class="center td-width">400</td>
@@ -251,7 +261,7 @@
                             <td class="center td-width">100</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>             
+                        <tr>
                             <td>Профилактическая чистка и смазка резинового уплотнителя силиконом</td>
                             <td class="center">створка</td>
                             <td class="center td-width">70</td>
@@ -275,13 +285,13 @@
                             <td class="center td-width">250</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>							
+                        <tr>
 							 <td>Установка детского замка «оконной няни»</td>
                             <td class="center">шт.</td>
                             <td class="center td-width">250</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>       
+                        <tr>
 							<td>Установка приточно-вентиляционного клапана (устранение запотевания стекол) </td>
                             <td class="center">шт.</td>
                             <td class="center td-width">480</td>
@@ -293,13 +303,13 @@
                             <td class="center td-width">450/550</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>                           
+                        <tr>
                             <td>Полная замена механизма окна/двери</td>
                             <td class="center">шт.</td>
                             <td class="center td-width">1500-1900</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>                                                                                                         
+                        <tr>
                             <td>Замена секрета замка в двери (изделие+работа) </td>
                             <td class="center">шт.</td>
                             <td class="center td-width">от 450</td>
@@ -311,7 +321,7 @@
                             <td class="center td-width">от 700</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
-                        <tr>                                                                                                                 
+                        <tr>
                             <td>Замена пластиковых декоративных частей на петлях </td>
                             <td class="center">комплект</td>
                             <td class="center td-width">70</td>
@@ -345,7 +355,7 @@
                         <p>Если у Вас возникли вопросы или пожелания - Вы всегда можете связаться с нами по телефонам, указанным ниже или написав нам на e-mail</p>
                     </div>
                    <div class="row">
-                    <form id="main-contact-form" name="contact-form" class="footer_form">
+                    <form id="main-contact-form" name="contact-form" class="footer_form" data-event="contact-form" data-event-category="form">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" placeholder="Имя">
                             <input type="hidden" name="form" class="form-control" value="Обратная связь">
@@ -388,13 +398,13 @@
             <div class="modal-dialog">
                 <!-- Modal content-->
                 <div class="modal-content">
-                    <div class="modal-header"> 
+                    <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h5 class="modal-title">Оставьте Ваш номер телефона, мы свяжемся с Вами и ответим на все вопросы!</h5>
                     </div>
                     <div class="modal-body">
                         <p>
-                            <form class="modal-form">
+                            <form class="modal-form" id="header_callback" data-event="callback" data-event-category="form">
                                 <div class="input-with-icon">
                                     <label for="fieldPhone">Введите ваш номер телефона</label>
                                     <i class="icon icon-Phone thirstphone"></i>
@@ -418,7 +428,7 @@
                     </div>
                     <div class="modal-body">
                         <p>
-                            <form class="modal-form">
+                            <form class="modal-form" id="free_diagnostic" data-event="send" data-event-category="button">
                                 <div class="input-with-icon">
                                     <label for="fieldName">Введите ваше имя</label>
                                     <input id="fieldName" name="name" type="text">
@@ -448,7 +458,7 @@
                         <p>
                             <form class="modal-form">
                                 <div class="input-with-icon">
-                                    <label for="phone-field">Оставьте номер телефона и наш менеджер свяжется с Вами</label>
+                                    <label for="phone-field">Оставьте номер телефона и наш мастер свяжется с Вами</label>
                                     <i class="icon icon-Phone thirstphone"></i>
                                     <input type="hidden" name="form" class="form-control" value="Поп-ап: Заявка на бесплатную диагностику">
                                     <input id="phone-field" name="phone" type="text" placeholder="Телефон">
@@ -461,10 +471,10 @@
             </div>
         </div>
     </div>
-        
+
     <script src='app/js/libs.min.js?v=1.3'></script>
     <script src="./js/old-libs/mask.js"></script>
-    <script src="app/js/bundle.min.js?v=1.4"></script>
+<!--    <script src="app/js/bundle.min.js?v=1.4"></script>-->
     <script type="text/javascript">
     (function(d, w, s) {
         var widgetHash = '3y5g3pb5rye5l2r5bfn5', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;

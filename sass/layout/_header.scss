@@ -161,8 +161,12 @@
     }
 }
 
-.contact-list {
+.send-callback {
     position: relative;
+    margin: -15px 0 0px 0!important;
+    padding: 15px;
+    background-color: #0fbcba;
+    border-radius: 5px;
 }
 
 .contact-drop-down {
@@ -179,7 +183,7 @@
     padding: 20px;
     color: $white;
     border-radius: 5px;
-    font-family: "Cormorant Infant",serif;
+    //font-family: "Cormorant Infant",serif;
     text-align: center;
     max-width: 310px;
     
@@ -187,8 +191,8 @@
     @include media ('>tablet') {
         position: absolute;
         top: auto;
-        top: 55px;
-        left: -100%;
+        top: 75px;
+        left: 67%;
         transform: translateX(-50%);
         max-width: 400px;
     }
@@ -224,9 +228,9 @@
     }
 
     .close {
-        right: 10px;
-        font-size: 50px;
-        top: -15px;
+        right: 6px;
+        font-size: 35px;
+        top: -5px;
     }
 }
 
