@@ -36,7 +36,7 @@
     <header id="header">
         <div class="sticky-header">
             <div class="container">
-                <a href="#" class="logo">ЧАСТНЫЙ СЕРВИС «УЮТ ПРОФИ»</a>
+                <a href="#" class="logo">Выезд и диагностика - БЕСПЛАТНО!</a>
                 <nav class="main-nav">
                     <a href="#" class="nav-opener"><span></span></a>
                     <div class="nav-drop">
@@ -45,12 +45,11 @@
                             <li><a href="#review" data-href="#callback-btn-header">Отзывы</a></li>
                             <li><a href="#services">Сервис</a></li>
                             <li><a href="#our-advantages">Наши преимущества</a></li>
-                            <li><a href="#contact">Оставить заявку</a></li>
                             <li class="contact-list"><span id="contact-list-btn">Контакты</span>
                                 <section class="call contact-drop-down">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <div class="phone_number">
-                                        <span>09:00-21:00 Ежедневно</span>
+                                        <span>08:30-21:00 Ежедневно</span>
                                     </div>
                                     <?php
                                     $phone_numbers = [
@@ -72,7 +71,7 @@
 
                                     ?>
                                     <div class="phone_number">
-                                    <span title="Vodafone" class="mobo-vodafone-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['mts']; ?>"><?php echo $phone_numbers[$key]['mts']; ?></a></span>
+                                        <span title="Vodafone" class="mobo-vodafone-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['mts']; ?>"><?php echo $phone_numbers[$key]['mts']; ?></a></span>
                                         <span title="Київстар" class="mobo-kyivstar-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['ks']; ?>"><?php echo $phone_numbers[$key]['ks']; ?></a></span>
                                         <span title="Lifecell" class="mobo-lifecell-16">&nbsp;<a class="phone-clicable" href="tel:<?php echo $phone_numbers[$key]['life']; ?>"><?php echo $phone_numbers[$key]['life']; ?></a></span>
                                     </div>
@@ -84,6 +83,8 @@
                                     </div>
                                 </section>
                             </li>
+                            <li class="send-callback"><a href="#contact">Оставить заявку</a></li>
+
                         </ul>
                     </div>
                 </nav>
@@ -297,12 +298,6 @@
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
                         <tr>
-							<td>Установка противовзломной фурнитуры</td>
-                            <td class="center">створка/дверь</td>
-                            <td class="center td-width">от 500</td>
-                            <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
-                        </tr>
-                        <tr>
                             <td>Переделывание фурнитуры окна/двери на поворотно-откидную (указана только стоимость работ)</td>
                             <td class="center">створка</td>
                             <td class="center td-width">450/550</td>
@@ -360,7 +355,7 @@
                         <p>Если у Вас возникли вопросы или пожелания - Вы всегда можете связаться с нами по телефонам, указанным ниже или написав нам на e-mail</p>
                     </div>
                    <div class="row">
-                    <form id="main-contact-form" name="contact-form" class="footer_form">
+                    <form id="main-contact-form" name="contact-form" class="footer_form" data-event="contact-form" data-event-category="form">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" placeholder="Имя">
                             <input type="hidden" name="form" class="form-control" value="Обратная связь">
@@ -409,7 +404,7 @@
                     </div>
                     <div class="modal-body">
                         <p>
-                            <form class="modal-form">
+                            <form class="modal-form" id="header_callback" data-event="callback" data-event-category="form">
                                 <div class="input-with-icon">
                                     <label for="fieldPhone">Введите ваш номер телефона</label>
                                     <i class="icon icon-Phone thirstphone"></i>
@@ -433,7 +428,7 @@
                     </div>
                     <div class="modal-body">
                         <p>
-                            <form class="modal-form">
+                            <form class="modal-form" id="free_diagnostic" data-event="send" data-event-category="button">
                                 <div class="input-with-icon">
                                     <label for="fieldName">Введите ваше имя</label>
                                     <input id="fieldName" name="name" type="text">
@@ -463,7 +458,7 @@
                         <p>
                             <form class="modal-form">
                                 <div class="input-with-icon">
-                                    <label for="phone-field">Оставьте номер телефона и наш менеджер свяжется с Вами</label>
+                                    <label for="phone-field">Оставьте номер телефона и наш мастер свяжется с Вами</label>
                                     <i class="icon icon-Phone thirstphone"></i>
                                     <input type="hidden" name="form" class="form-control" value="Поп-ап: Заявка на бесплатную диагностику">
                                     <input id="phone-field" name="phone" type="text" placeholder="Телефон">
@@ -479,7 +474,7 @@
 
     <script src='app/js/libs.min.js?v=1.3'></script>
     <script src="./js/old-libs/mask.js"></script>
-    <script src="app/js/bundle.min.js?v=1.4"></script>
+<!--    <script src="app/js/bundle.min.js?v=1.4"></script>-->
     <script type="text/javascript">
     (function(d, w, s) {
         var widgetHash = '3y5g3pb5rye5l2r5bfn5', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;

@@ -161,7 +161,7 @@
     }
 }
 
-.contact-list {
+.send-callback {
     position: relative;
     margin: -15px 0 0px 0!important;
     padding: 15px;
@@ -191,8 +191,8 @@
     @include media ('>tablet') {
         position: absolute;
         top: auto;
-        top: 55px;
-        left: -100%;
+        top: 75px;
+        left: 67%;
         transform: translateX(-50%);
         max-width: 400px;
     }
