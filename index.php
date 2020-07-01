@@ -26,6 +26,31 @@
         })(window,document,'script','dataLayer','GTM-MDHKRL2');
     </script>
     <!-- End Google Tag Manager -->
+	<script type="text/javascript">
+var yaParams = {};
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://ip.up66.ru/', true);
+xhr.onload = function() {
+yaParams.ip = this.responseText;
+}
+xhr.send();
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+
+   ym(57641224, "init", {
+        clickmap:true,
+		params:window.yaParams,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/57641224" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -98,14 +123,14 @@
                 <div class="main-slider__img" style="background-image: url(images/window-03.jpg)"></div>
             </div>
             <div class="main-slogan">
-                <h1><mark>Ремонт металлопластиковых окон и дверей в Киеве</mark></h1>
+                <h1><mark>Ремонт пластиковых окон Дарницкий,Печерск,Голосеево </mark></h1>
                 <script>
                     if (document.location.href.indexOf('utm_term') > 0) {
                         var utmTerms = decodeURI(document.location.href.split('&utm_term=')[1].split('&')[0]);
                         document.getElementsByTagName("h1")[0].innerHTML = utmTerms.replace(/[^А-Яа-яЁё\s]/gi, '').toUpperCase();
                     }
                 </script>
-                <p><mark>ЧАСТНЫЙ СЕРВИС «УЮТ ПРОФИ»</mark></p>
+                <p><mark>СЕРВИС ЧАСТНОГО МАСТЕРА «УЮТ ПРОФИ»</mark></p>
             </div>
             <div id="btn-down">
                 <a href="#services" class="icon-scroll bounce">
@@ -120,7 +145,7 @@
                 <button class="btn btn-leave__request pulse-effect" type="submit" data-toggle="modal" data-target="#leave-request">Закажите бесплатную диагностику прямо сейчас!</button>
                 <div class="heading">
                     <h2></h2>
-                    <p>Частный оконный сервис «Уют Профи» предлагает профессиональное сервисное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия
+                    <p>Сервис частного мастера «Уют Профи» предлагает профессиональное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия. Наш мастер сделает все чтобы спасти даже самые проблемные окна!
                 </div>
                 <div id="our-services">
                     <div class="services__items">
@@ -167,15 +192,15 @@
         <section class="our-advantages" id="our-advantages">
             <div class="container">
                 <div class="heading">
-                    <h2>Наши преимущества:</h2>
-                    <p> Обращаясь к нам, Вы можете быть уверены, что работаете с профессионалами!</p>
+                    <h2>5 причин обратиться к нашему мастеру:</h2>
+                    <p> Оставляя заявку, Вы можете быть уверены, что работаете с профессионалом!</p>
                 </div>
                 <ul class="items-our-advantages">
                     <li>
                         <div class="item-our-advantages">
                             <img src="images/icon/006-engineer-2.svg" alt="">
                             <div class="our-advantage__description">
-                                <p>Высоквалифицированные мастера.</p>
+                                <p>Это не фирма! По телефону Вас консультирует непосредственно мастер. </p>
                             </div>
                         </div>
                     </li>
@@ -191,7 +216,7 @@
                         <div class="item-our-advantages">
                             <img src="images/icon/022-truck.svg" alt="">
                             <div class="our-advantage__description">
-                                <p>Выезд в течении часа.</p>
+                                <p>Выезд в течении часа. Мастер в маске и со сменной обувью!</p>
                             </div>
                         </div>
                     </li>
@@ -352,7 +377,7 @@
                 <div class="container" id="contacts">
                     <div class="heading">
                         <h2>Обратная связь</h2>
-                        <p>Если у Вас возникли вопросы или пожелания - Вы всегда можете связаться с нами по телефонам, указанным ниже или написав нам на e-mail</p>
+                        <p>Если у Вас возникли вопросы - Вы всегда можете связаться с мастером, по указанным ниже телефонам, или написать на e-mail</p>
                     </div>
                    <div class="row">
                     <form id="main-contact-form" name="contact-form" class="footer_form" data-event="contact-form" data-event-category="form">
@@ -424,7 +449,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h5 class="modal-title">Оставьте Ваши данные, мы свяжемся с Вами и ответим на все вопросы!</h5>
+                        <h5 class="modal-title">Оставьте Ваши данные, мастер свяжется с Вами и ответит на все вопросы!</h5>
                     </div>
                     <div class="modal-body">
                         <p>
@@ -506,5 +531,12 @@
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   <script src="assets/main.min.js"></script>
   <script id="dsq-count-scr" src="//oknaremont-kiev-ua.disqus.com/count.js" async></script>
+<script type="text/javascript">
+  (function(d, w, s) {
+	var widgetHash = '1zulbjamhfmxhjja9mfx', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
+	gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
+	var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
+  })(document, window, 'script');
+</script>
 </body>
 </html>
