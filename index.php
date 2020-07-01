@@ -12,9 +12,9 @@
     </script>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app/css/bundle.min.css?v=1.2">
+<!--    <link rel="stylesheet" href="app/css/bundle.min.css?v=1.2">-->
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant:400,500i,600|Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="assets/main.min.css">
+    <link rel="stylesheet" href="assets/main.min.css?v=1.1">
 	<title>УЮТ ПРОФИ</title>
 
     <!-- Google Tag Manager -->
@@ -123,7 +123,7 @@ xhr.send();
                 <div class="main-slider__img" style="background-image: url(images/window-03.jpg)"></div>
             </div>
             <div class="main-slogan">
-                <h1><mark>Ремонт пластиковых окон Дарницкий,Печерск,Голосеево </mark></h1>
+                <h1><mark>Ремонт металлопластиковых окон Дарницкий, Печерск, Голосеево </mark></h1>
                 <script>
                     if (document.location.href.indexOf('utm_term') > 0) {
                         var utmTerms = decodeURI(document.location.href.split('&utm_term=')[1].split('&')[0]);
@@ -529,7 +529,7 @@ xhr.send();
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <script src="assets/main.min.js"></script>
+  <script src="assets/main.min.js?v=1.1"></script>
   <script id="dsq-count-scr" src="//oknaremont-kiev-ua.disqus.com/count.js" async></script>
 <script type="text/javascript">
   (function(d, w, s) {

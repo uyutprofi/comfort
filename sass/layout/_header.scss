@@ -20,6 +20,9 @@
             justify-content: space-between;
             align-items: baseline;
         }
+        @include media('>=360px', '<400px') {
+            padding: 0;
+        }
     }
 }
 
@@ -75,6 +78,7 @@
 }
 
 .main-slogan {
+    width: 100%;
     position: absolute;
     text-align: center;
     top: 50%;
@@ -162,6 +166,7 @@
 }
 
 .send-callback {
+    text-align: center;
     position: relative;
     margin: -15px 0 0px 0!important;
     padding: 15px;
