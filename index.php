@@ -123,7 +123,7 @@ xhr.send();
                 <div class="main-slider__img" style="background-image: url(images/window-03.jpg)"></div>
             </div>
             <div class="main-slogan">
-                <h1><mark>Ремонт металлопластиковых окон Дарницкий, Печерск, Голосеево </mark></h1>
+                <h1><mark>Ремонт металлопластиковых окон в Киеве,установка москитных сеток </mark></h1>
                 <script>
                     if (document.location.href.indexOf('utm_term') > 0) {
                         var utmTerms = decodeURI(document.location.href.split('&utm_term=')[1].split('&')[0]);
@@ -145,7 +145,7 @@ xhr.send();
                 <button class="btn btn-leave__request pulse-effect" type="submit" data-toggle="modal" data-target="#leave-request">Закажите бесплатную диагностику прямо сейчас!</button>
                 <div class="heading">
                     <h2></h2>
-                    <p>Сервис частного мастера «Уют Профи» предлагает профессиональное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия. Наш мастер сделает все чтобы спасти даже самые проблемные окна!
+                    <p>Сервис частного мастера «Уют Профи» предлагает профессиональное обслуживание и ремонт евроокон из металлопластика, дерева и алюминия. Сделаем все чтобы спасти даже самые проблемные окна!
                 </div>
                 <div id="our-services">
                     <div class="services__items">
@@ -271,7 +271,7 @@ xhr.send();
                         <tr>
                             <td>Замена уплотнителя (пенополиуритан Германия)</td>
                             <td class="center">м.п</td>
-                            <td class="center td-width">60</td>
+                            <td class="center td-width">65</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Заказать</button></td>
                         </tr>
                         <tr>
@@ -407,8 +407,8 @@ xhr.send();
                 <div class="address">
                     <strong>Киев</strong>
                     <address>Проспект Петра Григоренка 41</address>
-                    <address>Дарницкий Бульвар 9</address>
-                    <address>ул.Владимирская 77</address>
+                    <address>ул.Княжый затон 17</address>
+                    <address>Бульвар Леси Украинки 28</address>
                 </div>
                 <ul class="list-tell">
                 <li><span title="Vodafone" class="mobo-vodafone-16">&nbsp;<a href="tel:<?php echo $phone_numbers[$key]['mts']; ?>"><?php echo $phone_numbers[$key]['mts']; ?></a></span></li>
