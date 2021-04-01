@@ -538,5 +538,16 @@ xhr.send();
 	var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
   })(document, window, 'script');
 </script>
+  <!--  telegram widget-->
+  <script type="text/javascript">
+      (function() {var script=document.createElement("script");script.type="text/javascript";script.async =true;script.src="//telegram.im/widget-button/index.php?id=@uyt_profi";document.getElementsByTagName("head")[0].appendChild(script);})();
+  </script>
+  <a href="https://telegram.im/@uyt_profi" target="_blank" class="telegramim_button telegramim_shadow telegramim_pulse" style="font-size:26px;width:48px;background:#27A5E7;box-shadow:1px 1px 5px #27A5E7;color:#FFFFFF;border-radius:100px;position:fixed;bottom: 70px;right: 10px;" title="Связаться с УЮТ ПРОФИ"><i></i></a>
+  <!--  telegram widget end-->
+  <!--  viber widget-->
+  <a href="https://msng.link/o/?380502468352=vi" target="_blank" style="bottom: 67px;right: 67px;width:55px;position:fixed;" title="Связаться с УЮТ ПРОФИ">
+      <img src="images/viber.png">
+  </a>
+  <!--  viber widget end-->
 </body>
 </html>
