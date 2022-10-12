@@ -50,20 +50,20 @@ $(document).ready(function() {
                 data: form.serialize(),
                 success: function() {
                     sendGoogleAnalitics(event, eventCategory);
-                    form.html('<p style="white-space: normal;">Cпасибо!<br>Ваша заявка отправлена!<br>Мы перезвоним Вам в ближайшее время и ответим на все вопросы!</p>');
+                    form.html('<p style="white-space: normal;">Дякуємо!<br>Ваша заявка відправлена!<br>Ми зателефонуємо Вам найближчим часом та відповімо на всі питання!</p>');
                     setTimeout(function() {
                         $('#free-diagnostic').hide();
                     }, 6000);
                 },
                 error: function() {
-                    form.html('<p class="bg-danger">Произошла ошибка! Попробуйте позже!<p>');
+                    form.html('<p class="bg-danger">Виникла помилка! Спробуйте пізніше!<p>');
                 }
             });
 
         } else {
             phoneInput.css('border', '1px solid red');
             if (!form.find('.phone-error').length) {
-                phoneInput.before('<p class="phone-error" style="color:red">Введите телефон</p>');
+                phoneInput.before('<p class="phone-error" style="color:red">Введіть телефон</p>');
             }
         }
     });

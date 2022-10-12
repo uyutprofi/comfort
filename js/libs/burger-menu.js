@@ -95,11 +95,9 @@
     };
 
     $.fn.mobileNav = function(opt) {
-        console.log("mobileNav");
     }
 
     $.fn.mobileNavNew = function(opt) {
-        console.log("mobileNav New");
         var args = Array.prototype.slice.call(arguments);
         var method = args[0];
 
