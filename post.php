@@ -4,7 +4,8 @@ if (isset($_POST['phone'])) {
 
     $admin_email = array(
         'evgeniyyzhaninov@gmail.com',
-        'maxiskosenko@gmail.com'
+        'maxiskosenko@gmail.com',
+        'alego888@gmail.com'
     );
 
 //get data from post

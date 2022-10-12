@@ -53,7 +53,6 @@ $(window).scroll(function() {
 // contact-list
 $(document).ready(function() {
     $(".contact-list").on("click", "#contact-list-btn", function(e) {
-        console.log(this);
         $(".contact-drop-down").fadeIn();
         $(".close").click(".contact-drop-down", function() {
             $(".contact-drop-down").fadeOut();
