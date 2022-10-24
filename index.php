@@ -97,10 +97,10 @@
         </div>
         <div class="main-slider-wrapper">
             <div class="main-slider">
-                <div class="main-slider__img" style="background-image: url(images/window-07.jpg)"></div>
-                <div class="main-slider__img" style="background-image: url(images/window-05.jpg)"></div>
-                <div class="main-slider__img" style="background-image: url(images/window-06.jpg)"></div>
-                <div class="main-slider__img" style="background-image: url(images/window-03.jpg)"></div>
+                <div class="main-slider__img" style="background-image: url(images/window-07.webp)"></div>
+                <div class="main-slider__img" style="background-image: url(images/window-05.webp)"></div>
+                <div class="main-slider__img" style="background-image: url(images/window-06.webp)"></div>
+                <div class="main-slider__img" style="background-image: url(images/window-03.webp)"></div>
             </div>
             <div class="main-slogan">
                 <h1><mark>Ремонт металопластикових вікон в Києві та області </mark></h1>
@@ -372,7 +372,7 @@
                                 <button type="submit" class="btn-submit btn">Відправити заявку</button>
                             </div>
                         </form>
-                        <div class="contact-us__img" style="background-image: url(images/window-08.jpg");"></div>
+                        <div class="contact-us__img" style="background-image: url(images/window-08.webp");"></div>
                 </div>
             </div>
 </div>
@@ -498,7 +498,7 @@
 <!--  telegram widget end-->
 <!--  viber widget-->
 <a href="https://msng.link/o/?380687983499=vi" target="_blank" style="bottom: 67px;right: 67px;width:55px;position:fixed;" title="Зв'язатися з ПРОФІ ЗАТИШОК">
-    <img src="images/viber.png">
+    <img src="images/viber.webp">
 </a>
 <!--  viber widget end-->
 
