@@ -474,14 +474,14 @@
 </div>
 </div>
 
-<script src='app/js/libs.min.js?v=1.3'></script>
-<script src="./js/old-libs/mask.js"></script>
+<script defer src='app/js/libs.min.js?v=1.3'></script>
+<script defer src="./js/old-libs/mask.js"></script>
 <!--    <script src="app/js/bundle.min.js?v=1.4"></script>-->
 <div id="review">
     <div id="disqus_thread"></div>
 </div>
 
-<script src="assets/main.min.js?v=1.1"></script>
+<script defer src="assets/main.min.js?v=1.1"></script>
 
 <script type="text/javascript">
     (function(d, w, s) {
