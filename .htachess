@@ -31,7 +31,7 @@ AddOutputFilterByType DEFLATE image/svg+xml
 AddOutputFilterByType DEFLATE image/x-icon
 
 # Exception: Images
-#SetEnvIfNoCase REQUEST_URI \.(?:gif|jpg|jpeg|png)$ no-gzip dont-vary
+#SetEnvIfNoCase REQUEST_URI \.(?:webp|gif|jpg|jpeg|png)$ no-gzip dont-vary
 
 # Drop problematic browsers
 BrowserMatch ^Mozilla/4 gzip-only-text/html
@@ -51,6 +51,7 @@ Header append Vary User-Agent env=!dont-vary
 ExpiresActive On
 ExpiresDefault "access plus 1 week"
 ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
 ExpiresByType image/jpeg "access plus 1 year"
 ExpiresByType image/gif "access plus 1 year"
 ExpiresByType image/png "access plus 1 year"
@@ -90,8 +91,8 @@ ExpiresByType font/opentype "access plus 1 month"
 #Alternative caching using Apache's "mod_headers", if it's installed.
 #Caching of common files - ENABLED
 <IfModule mod_headers.c>
-<FilesMatch "\.(ico|pdf|flv|swf|js|css|gif|png|jpg|jpeg|txt|html|htm)$">
-Header set Cache-Control "max-age=2592000, public"
+<FilesMatch "\.(ico|pdf|flv|swf|js|css|webp|gif|png|jpg|jpeg|txt|html|htm)$">
+Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
 </IfModule>
 
