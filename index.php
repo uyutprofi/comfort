@@ -498,7 +498,7 @@
 <!--  telegram widget end-->
 <!--  viber widget-->
 <a href="https://msng.link/o/?380687983499=vi" target="_blank" style="bottom: 67px;right: 67px;width:55px;position:fixed;" title="Зв'язатися з ПРОФІ ЗАТИШОК">
-    <img src="images/viber.webp">
+    <img width="55px" height="55px" src="images/viber.webp">
 </a>
 <!--  viber widget end-->
 
