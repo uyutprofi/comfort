@@ -3,8 +3,7 @@ if (isset($_POST['phone'])) {
 //set admin emails 
 
     $admin_email = array(
-        'evgeniyyzhaninov@gmail.com',
-        'maxiskosenko@gmail.com',
+        'uyutprofi.kiev@gmail.com',
         'alego888@gmail.com'
     );
 
