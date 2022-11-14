@@ -230,31 +230,31 @@
                         <tr>
                             <td>Регулювання вікна/балконних дверей</td>
                             <td class="center">створка/двері</td>
-                            <td class="center td-width">150/200</td>
+                            <td class="center td-width">200/250</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Повне ТО(чистка, змащування, регулювання механізму) вікна/балконних дверей</td>
                             <td class="center">створка/двері</td>
-                            <td class="center td-width">250/300</td>
+                            <td class="center td-width">300/350</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Регулювання вхідних пластикових/алюмінієвих дверей</td>
                             <td class="center">двері</td>
-                            <td class="center td-width">від 400</td>
+                            <td class="center td-width">600/800</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Ремонт фурнітури вікна/балконних дверей </td>
                             <td class="center">вікно/двері</td>
-                            <td class="center td-width">от 250</td>
+                            <td class="center td-width">300/350</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Заміна ущільнювача(пінополіуритан Німеччина)</td>
                             <td class="center">м.п</td>
-                            <td class="center td-width">85</td>
+                            <td class="center td-width">89</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
@@ -266,79 +266,79 @@
                         <tr>
                             <td>Усунення широких щілин герметиком/підпінка відливу</td>
                             <td class="center">м.п</td>
-                            <td class="center td-width">250</td>
+                            <td class="center td-width">350</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Заміна поворотної ручки, Hoppe Німеччина</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">250</td>
+                            <td class="center td-width">290</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Заміна нижніх петель вікно/двері</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">750/800</td>
+                            <td class="center td-width">800/900</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Монтаж защілки + ручка курця</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">450</td>
+                            <td class="center td-width">500</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Монтаж дитячого замка на вікно</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">350</td>
+                            <td class="center td-width">380</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Встановлення приточно-вентиляційного клапана (усунення запотівання скла) </td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">700</td>
+                            <td class="center td-width">750</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Перероблення фурнітури вікна/дверей на поворотно-відкидну (вказана тільки вартість робіт)</td>
                             <td class="center">створка</td>
-                            <td class="center td-width">450/550</td>
+                            <td class="center td-width">850/950</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Повна заміна механізму вікна/дверей</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">1700-3300</td>
+                            <td class="center td-width">2300-3300</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Заміна секрету замка дверей (виріб+робота)</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">от 450</td>
+                            <td class="center td-width">от 600</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Заміна замка дверей(виріб+робота)</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">от 700</td>
+                            <td class="center td-width">від 700</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Заміна пластикових декоративних частин на петлях</td>
                             <td class="center">комплект</td>
-                            <td class="center td-width">70</td>
+                            <td class="center td-width">100</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Регулювання дверного доводчика</td>
                             <td class="center">шт</td>
-                            <td class="center td-width">300</td>
+                            <td class="center td-width">350</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Встановлення москітної сітки</td>
                             <td class="center">шт</td>
-                            <td class="center td-width"> от 350</td>
+                            <td class="center td-width"> от 400</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
