@@ -497,16 +497,14 @@
 <a href="https://telegram.im/@uyt_profi" target="_blank" class="telegramim_button telegramim_shadow telegramim_pulse" style="font-size:26px;width:48px;background:#27A5E7;box-shadow:1px 1px 5px #27A5E7;color:#FFFFFF;border-radius:100px;position:fixed;bottom: 70px;right: 10px;" title="Зв'язатися з УЮТ ПРОФИ"><i></i></a>
 <!--  telegram widget end-->
 <!--  viber widget-->
-<a href="https://msng.link/o/?380666171518=vi" target="_blank" style="bottom: 67px;right: 67px;width:55px;position:fixed;" title="Зв'язатися з ПРОФІ ЗАТИШОК">
+<a href="https://msng.link/o/?380666171518=vi" target="_blank" style="bottom: 11px;right: 8px;width:55px;position:fixed;" title="Зв'язатися з ПРОФІ ЗАТИШОК">
     <img width="55px" height="55px" src="images/viber.webp">
 </a>
 <!--  viber widget end-->
 
 <!--  whatsapp widget -->
-<script async src="https://s.widgetwhats.com/wwwa.js" data-wwwa="15669"></script>
-<!-- whatsapp widget end -->
 <script>
-    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?85567';
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?76173';
     var s = document.createElement('script');
     s.type = 'text/javascript';
     s.async = true;
@@ -518,14 +516,14 @@
             "ctaText":"",
             "borderRadius":"25",
             "marginLeft":"0",
-            "marginBottom":"50",
-            "marginRight":"50",
+            "marginBottom":"130",
+            "marginRight":"10",
             "position":"right"
         },
         "brandSetting":{
             "brandName":"ПРОФІ ЗАТИШОК",
             "brandSubTitle":"Зазвичай відповідаємо напротязі дня",
-            "brandImg":"",
+            "brandImg":"https://www.oknaremont.kiev.ua/app/img/profi_zatishok.webp",
             "welcomeText":"Привіт!\nЧим можу допомогти?",
             "messageText":"",
             "backgroundColor":"#0a5f54",
@@ -541,6 +539,8 @@
     var x = document.getElementsByTagName('script')[0];
     x.parentNode.insertBefore(s, x);
 </script>
+<!-- whatsapp widget end -->
+
 <script>
 
     /**
