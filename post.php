@@ -3,8 +3,7 @@ if (isset($_POST['phone'])) {
 //set admin emails 
 
     $admin_email = array(
-        'uyutprofi.kiev@gmail.com',
-        'alego888@gmail.com'
+        'uyutprofi.kiev@gmail.com'
     );
 
 //get data from post
