@@ -38,7 +38,7 @@
     <header id="header">
         <div class="sticky-header">
             <div class="container">
-                <a href="#" class="logo">Діагностика - БЕЗКОШТОВНО!</a>
+                <a href="#" class="logo">Тепловізор - БЕЗКОШТОВНО!</a>
                 <nav class="main-nav">
                     <a href="#" class="nav-opener"><span></span></a>
                     <div class="nav-drop">
@@ -254,17 +254,17 @@
                         <tr>
                             <td>Заміна ущільнювача(пінополіуритан Німеччина)</td>
                             <td class="center">м.п</td>
-                            <td class="center td-width">89</td>
+                            <td class="center td-width">95</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Усунення дрібних щілин герметиком всередині/ззовні</td>
                             <td class="center">м.п</td>
-                            <td class="center td-width">80</td>
+                            <td class="center td-width">80/120</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
-                            <td>Усунення широких щілин герметиком/підпінка відливу</td>
+                            <td>Усунення широких щілин герметиком/підпінювання відливу</td>
                             <td class="center">м.п</td>
                             <td class="center td-width">350</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
@@ -276,21 +276,21 @@
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
-                            <td>Заміна нижніх петель вікно/двері</td>
+                            <td>Заміна нижньої петлі вікно/двері</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">800/900</td>
+                            <td class="center td-width">850/950</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Монтаж защілки + ручка курця</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">500</td>
+                            <td class="center td-width">550</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
                             <td>Монтаж дитячого замка на вікно</td>
                             <td class="center">шт.</td>
-                            <td class="center td-width">380</td>
+                            <td class="center td-width">390</td>
                             <td class="center"><button class="btn" type="submit" data-toggle="modal" data-target="#leave-request">Замовити</button></td>
                         </tr>
                         <tr>
